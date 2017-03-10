@@ -172,6 +172,7 @@ class Boat{
    fill(c);
    noStroke();
    rect(xpos, ypos, breite, laenge); 
+   triangle(xpos, ypos, xpos+breite/2, ypos-10, xpos+breite, ypos);
  }
  
 }
